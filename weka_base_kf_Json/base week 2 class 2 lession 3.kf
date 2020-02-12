@@ -281,7 +281,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.J48",
-					"options" : "-C 0.25 -M 2"
+					"options" : "-R -N 3 -Q 3 -M 2"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "J48_90,Seed_3",
@@ -301,7 +301,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.J48",
-					"options" : "-C 0.25 -M 2"
+					"options" : "-R -N 3 -Q 1 -M 2"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "J48_90,Seed_1",
@@ -321,7 +321,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.J48",
-					"options" : "-C 0.25 -M 2"
+					"options" : "-R -N 3 -Q 5 -M 2"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "J48_90,Seed_5",
@@ -341,7 +341,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.J48",
-					"options" : "-C 0.25 -M 2"
+					"options" : "-R -N 3 -Q 9 -M 2"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "J48_90,Seed_9",
@@ -361,7 +361,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.J48",
-					"options" : "-C 0.25 -M 2"
+					"options" : "-R -N 3 -Q 10 -M 2"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "J48_90,Seed_10",
@@ -414,6 +414,56 @@
 			"connections" : {
 			},
 			"coordinates" : "595,545"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Note",
+			"properties" : {
+				"name" : "Note",
+				"noteText" : "93.3333 %"
+			},
+			"connections" : {
+			},
+			"coordinates" : "1183,74"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Note",
+			"properties" : {
+				"name" : "Note48",
+				"noteText" : "93.3333 %"
+			},
+			"connections" : {
+			},
+			"coordinates" : "1189,203"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Note",
+			"properties" : {
+				"name" : "Note49",
+				"noteText" : "94.6667 %"
+			},
+			"connections" : {
+			},
+			"coordinates" : "1197,336"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Note",
+			"properties" : {
+				"name" : "Note50",
+				"noteText" : "95.3333 %"
+			},
+			"connections" : {
+			},
+			"coordinates" : "1195,473"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Note",
+			"properties" : {
+				"name" : "Note502",
+				"noteText" : "95.3333 %"
+			},
+			"connections" : {
+			},
+			"coordinates" : "1189,609"
 		}
 	]
 }
